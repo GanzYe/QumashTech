@@ -8,13 +8,13 @@ export default class TableListItem extends Component{
         const {title,address,url} = this.props;
         console.log(title,address,url);
         return(
-            <div className="d-flex justify-content-between align-items-center block">
+            <div className="d-flex align-items-center block">
              <img src={url} alt=""/>
             <div className='text'>
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{address}</p>  
             </div>
         </div>
-           )
+        )
     }
 }

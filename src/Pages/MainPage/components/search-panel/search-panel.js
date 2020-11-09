@@ -15,7 +15,7 @@ export default class SearchPanel extends Component {
     render(){    
     return (               
         <input
-        placeholder="Введите для поиска Жк"
+        placeholder="Введите для поиска ЖК или БЦ"
         className="form-control search-input"
         onChange={this.onSearchChange}
         disabled={false}
