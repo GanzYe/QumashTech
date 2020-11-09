@@ -1,0 +1,49 @@
+/* .content_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.block_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70vh;
+    border-radius: 10px;
+    background: rgb(0,83,147);
+    background: linear-gradient(90deg, rgba(0,83,147,1) 0%, rgba(0,113,185,1) 100%);
+    box-shadow:  5px 5px 10px #a3a3a3, 
+    -5px -5px 10px #ffffff;
+} */
+
+
+/* .res_block {
+    display: block;
+    width: 90%;
+    height: 80%;
+    background-color: #E7E7E8;
+    box-shadow:  5px 5px 10px #a3a3a3, 
+    -5px -5px 10px linear-gradient(90deg, rgba(0,83,147,1) 0%, rgba(0,113,185,1) 100%);
+    clip-path: polygon(25% 0%, 49% 0, 34% 50%, 52% 100%, 25% 100%, 9% 51%);
+}
+
+.sport_block {
+    display: block;
+    position: absolute;
+    left: 200px;
+    background: #ACA9A9;
+    width: 20%;
+    height: 20%;
+    border-radius: 5px;
+}
+
+.coworking_block {
+    display: block;
+    width: 95px;
+    height: 100px;
+    clip-path: polygon(79% 0, 100% 0, 88% 100%, 57% 100%);
+    position: absolute;
+    background-color: #ACA9A9;
+} */
