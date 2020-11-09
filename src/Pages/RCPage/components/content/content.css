@@ -5,10 +5,21 @@
     display: flex;
     justify-content: center;
 }
-
+.block_rc_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+}
 .block_container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     width: 90%;
     height: 70vh;
@@ -19,18 +30,3 @@
     -5px -5px 10px #ffffff;
 }
 
-
-
-.sport_block {
-    display: block;
-    position: absolute;
-    left: 200px;
-    background: #E7E7E8;
-    width: 20%;
-    height: 20%;
-    border-radius: 5px;
-}
-
-.sport_block:hover {
-    background-color: cadetblue;
-}
