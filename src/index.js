@@ -1,7 +1,5 @@
 import ReactDOM from 'react-dom';
-import App from './components/app';
+import App from './Pages/SportPage/components/app';
 
-
-//David 2
 
 ReactDOM.render(<App/>,document.getElementById('root'));
