@@ -12,7 +12,7 @@ function AppMain(){
             <Switch>
                <Route path='/' exact component={App}/>
                <Route path='/rc' component={RcPage}/>
-               <Route path='/block' component={BlockApp}/>
+               <Route path='/block' component={BlockApp} />
                <Route path='/booking' component={BookingApp}/>
             </Switch>
         </Router>
