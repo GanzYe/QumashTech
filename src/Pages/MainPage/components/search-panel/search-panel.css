@@ -1,0 +1,18 @@
+.search-input {
+  width: auto;
+  flex-grow: 1;
+  height: 45px;
+  margin: 30px 0px;
+  padding-left: 50px;
+  background: url("https://www.flaticon.com/svg/static/icons/svg/54/54481.svg"),
+    #ffffff;
+  background-position: 15px;
+  background-repeat: no-repeat;
+  background-size: 22px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  box-shadow: inset 5px 5px 10px #bdbdbd, inset -5px -5px 10px #ffffff;
+}
+
+/* https://www.flaticon.com/svg/static/icons/svg/54/54481.svg" */

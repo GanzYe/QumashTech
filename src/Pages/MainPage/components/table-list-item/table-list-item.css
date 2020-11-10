@@ -1,0 +1,20 @@
+.text p {
+  color: rgb(49, 48, 48);
+  font-size: 14px;
+  font-family: "Source Code Pro", monospace;
+}
+.text h4 {
+  font-family: "Fjalla One", sans-serif;
+}
+.text {
+  width: 50%;
+  text-align: center;
+  padding: 0px 5px;
+}
+.block {
+  box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+  margin-bottom: 30px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  height: 120px;
+}
