@@ -6,7 +6,7 @@ import img3 from './imgs/R.png'
 import img4 from './imgs/L.png'
 import imgBack from './imgs/ArrL.png'
 import FindPage from './modal/modal'
-
+import {Link} from 'react-router-dom';
 import ButtonBack from './button-back'
 import AppHeader from './app-header'
 
@@ -31,10 +31,11 @@ const App=()=> {
     }}
 
 
-   const [modalActive, setModalActive]= useState(false);
+    const [modalActive, setModalActive]= useState(false);
     return ( 
 
       <div className='Sportera d-flex flex-column justify-content-center'>
+        <FindPage active={modalActive} setActive={setModalActive}>
         <div className='teem d-flex flex-row justify-content-around '>
               <p>Олег Иванов</p>
               <p>6/20</p>
@@ -59,7 +60,8 @@ const App=()=> {
               <p>Олег Иванов</p>
               <p>5/10</p>
           </div>
-                  <ButtonBack/>
+          </FindPage>
+              <ButtonBack/>
             <AppHeader/>    
       <div className='SportPage '>
      
@@ -97,12 +99,22 @@ const App=()=> {
  <div className='Comman' aria-disabled='true'>
 
    <div className='contp'>
+     <p className='players'>Количество  игроков</p>
+     <input  className='Sshet2'  type={Number}/>
+   </div>
+   <div className='contp'>
      <p className='players'>Количество нужных игроков</p>
      <input  className='Sshet2'  type={Number}/>
    </div>
-   <button className='playersbtn'>Список команд</button>
+   <button className='playersbtn' onClick={()=>setModalActive(true)}>Список команд</button>
   </div>
-   <button className='btnBooking'>Забронировать</button>
+       <button className='btnBooking'>
+            <Link to='/booking' className='linkName'>
+              <div className='btnBookingChild'>
+                    Забронировать
+               </div>
+            </Link>
+        </button>
     </div>
 
 

@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import img from './btn.png';
+import {Link} from 'react-router-dom';
 import './app.css';
 export default class BookingApp extends Component {
     Back(){
@@ -38,7 +39,13 @@ export default class BookingApp extends Component {
                 <p className='Paym'>Онлайн</p>
                 </div>
            </div>
-           <button className='btnBooking'  >Забронировать</button>
+           <button className='btnBooking'>
+            <Link to='/' className='linkName'>
+              <div className='btnBookingChild'>
+                    Забронировать
+               </div>
+            </Link>
+        </button>
         </div>
     );
     }
