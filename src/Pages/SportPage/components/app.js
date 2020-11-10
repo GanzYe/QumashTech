@@ -6,7 +6,29 @@ import img3 from './imgs/R.png'
 import img4 from './imgs/L.png'
 import imgBack from './imgs/ArrL.png'
 export default class App extends Component {
-    render(){
+
+  Check(id) {
+ 
+   if(id==1 ){
+    console.log(id)
+    let mas= document.querySelectorAll('.Sshet');
+    
+    mas.forEach(element => {
+      console.log(element);
+      element.disabled = true;
+    });
+    document.querySelector('.playersbtn').disabled = true;
+    }
+    else{
+      console.log(id)
+    let mas= document.querySelectorAll('.Sshet');
+    mas.forEach(element => {
+      element.disabled = false;
+    });
+    document.querySelector('.playersbtn').disabled = false;
+    }}
+render(){
+
     
     return (
       
@@ -44,13 +66,19 @@ export default class App extends Component {
         
   </div>
 <div className='CheckBoxx'>
-<input  type="checkbox" id="agree"/>
-            <label class="remember" for="agree">Не хватает ли игроков?</label>
+<input class="magic-radio" type="radio" name="radio" id="1" value="option"onClick={()=> {this.Check(1)}}/>
+<label for="1">
+  Хватает игроков
+</label>  
+<input class="magic-radio" type="radio" name="radio" id="2" value="option" onClick={()=> {this.Check(2)}}/>
+<label for="2">
+  Нехватает игроков
+</label> 
 </div>
- <div className='Comman'>
+ <div className='Comman' aria-disabled='true'>
    <div className='contp'>
      <p className='players'>Количество игроков</p>
-     <input className='Sshet' type={Number}/>
+     <input className='Sshet'/>
    </div>
    <div className='contp'>
      <p className='players'>Количество нужных игроков</p>
