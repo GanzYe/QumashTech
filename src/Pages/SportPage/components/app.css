@@ -5,9 +5,7 @@
   height: 40px;
   width: 40px;
 }
-.Arrows{
-  
-}
+
 .Sportera {
   display: flex;
   flex-direction: column;
@@ -221,8 +219,12 @@ input[type='radio']{
 }
 .RadioL{
   position: relative;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   color:005393;
-  border:2px solid #005393;
+  box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
+  border:1px solid #005393;
   display: flex;
   height: 30px;
   width: 100px;
@@ -242,15 +244,19 @@ input[type='radio']{
 }
 .PforImg{
   font-weight: 100;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: -20%;
   color:#005393;
 }
 input[type='radio']:checked+label{
   background: linear-gradient(0.25turn, #005393, #0071b9);
+  border-radius: 10px;
   color:white
 }
 input[type='radio']:checked+label:before{
   border:10px solid white;
+  border-radius: 10px;
   background: linear-gradient(0.25turn, #005393, #0071b9);
 }
 .question{

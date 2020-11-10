@@ -7,6 +7,10 @@ import img4 from './imgs/L.png'
 import imgBack from './imgs/ArrL.png'
 import FindPage from './modal/modal'
 
+import ButtonBack from './button-back'
+import AppHeader from './app-header'
+
+
 const App=()=> {
 
   function Check(id) {
@@ -29,9 +33,9 @@ const App=()=> {
 
    const [modalActive, setModalActive]= useState(false);
     return ( 
+
       <div className='Sportera d-flex flex-column justify-content-center'>
-        <FindPage active={modalActive} setActive={setModalActive}>
-          <div className='teem d-flex flex-row justify-content-around '>
+        <div className='teem d-flex flex-row justify-content-around '>
               <p>Олег Иванов</p>
               <p>6/20</p>
           </div>
@@ -55,39 +59,31 @@ const App=()=> {
               <p>Олег Иванов</p>
               <p>5/10</p>
           </div>
-        </FindPage>
-          <img src={imgBack} class="BackImg" alt="..."/>
-        <div>
-        </div>
-        <div className='SportText'>
-          <label className='SportL'>
-            <p className='SportP'>Спорт площадка</p>
-          </label>
-        </div>
+                  <ButtonBack/>
+            <AppHeader/>    
       <div className='SportPage '>
      
       <div id="carouselExampleInterval" class="carousel slide" data-interval="false" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active Mid">
-          <img src={img} class="d-block w-100" alt="..."/>
-          <p className='PforImg'>Footbal</p>
-        </div>
-        <div class="carousel-item Mid" >
-          <img src={img2} class="d-block w-100" alt="..."/>
-          <p className='PforImg'>Basketbal</p>
-        </div>
-      </div>
-      <div className='Arrows'>
-      <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>   
-</div>
+  <div class="carousel-inner">
+    <div class="carousel-item active Mid">
+      <img src={img} class="d-block w-100" alt="..."/>
+      <p className='PforImg'>Football</p>
+    </div>
+    <div class="carousel-item Mid" >
+      <img src={img2} class="d-block w-100" alt="..."/>
+      <p className='PforImg'>Basketball</p>
+    </div>
+  </div>
+  <div className='Arrows'>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>   </div>
         
   </div>
         <h1 className='question'>Вы ищите себе соперников?</h1>
@@ -104,9 +100,9 @@ const App=()=> {
      <p className='players'>Количество нужных игроков</p>
      <input  className='Sshet2'  type={Number}/>
    </div>
-      <button className='playersbtn' onClick={()=>setModalActive(true)}>Таблица команд</button>
-      </div>
-       <button className='btnBooking'>Забронировать</button>
+   <button className='playersbtn'>Список команд</button>
+  </div>
+   <button className='btnBooking'>Забронировать</button>
     </div>
 
 

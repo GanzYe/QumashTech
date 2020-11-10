@@ -1,0 +1,10 @@
+.button-back-container {
+    height: 5%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.button-back {
+    width: 60px;
+    height: 60px;
+}

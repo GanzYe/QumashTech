@@ -12,84 +12,71 @@
     z-index: 0;
 }
 
-.office_1 {
-    background-color: green;
+.office {
     opacity: 0.5;
-    top: -82%;
-    left: 8%;
     position: relative;
     z-index: 100;
     height: 10%;
     width: 5%;
+}
+
+.office_1 {
+    background-color: green;
+    top: -82%;
+    left: 8%;
 }
 
 .office_2 {
     background-color: red;
-    opacity: 0.5;
     top: -82%;
     left: 8%;
-    z-index: 100;
-    position: relative;
-    height: 10%;
-    width: 5%;
 }
 
 .office_3 {
     background-color: red;
-    opacity: 0.5;
     top: -102%;
-    left: 17%;
-    position: relative;
-    height: 10%;
-    width: 5%;
+    left: 18%;
 }
 
 .office_4 {
     background-color: green;
-    opacity: 0.5;
     top: -102%;
-    left: 17%;
-    position: relative;
-    height: 10%;
-    width: 5%;
+    left: 18%;
 }
 
 .office_5 {
     background-color: green;
-    opacity: 0.5;
     top: -122%;
-    left: 25%;
-    position: relative;
-    height: 10%;
-    width: 5%;
+    left: 26%;
 }
 
 .office_6 {
     background-color: green;
-    opacity: 0.5;
     top: -122%;
-    left: 25%;
-    position: relative;
-    height: 10%;
-    width: 5%;
+    left: 26%;
 }
 
 .office_7 {
     background-color: green;
-    opacity: 0.5;
     top: -142%;
     left: 36%;
-    position: relative;
-    height: 10%;
-    width: 5%;
 }
 
 .office_8 {
     background-color: red;
-    opacity: 0.5;
     top: -142%;
     left: 36%;
-    position: relative;
-    height: 10%;
-    width: 5%;
+}
+
+.info_block {
+    background-color: lightgrey;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    margin-top: -50%;
+    height: 80%;
+    box-shadow:  5px 5px 10px #a3a3a3, 
+    -5px -5px 10px #ffffff;
+    border-radius: 10px;
 }
