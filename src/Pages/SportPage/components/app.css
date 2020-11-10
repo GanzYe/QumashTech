@@ -5,6 +5,9 @@
   height: 40px;
   width: 40px;
 }
+.Arrows{
+  
+}
 .Sportera {
   display: flex;
   flex-direction: column;
@@ -21,6 +24,21 @@ div.disabled
   opacity: 0.5;
   background: #CCC;
 }
+
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 60px;
+  color:  #0071b9;
+  right: 50px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 60px;
+  color:  #0071b9;
+}
 .SportPage {
   display: flex;
   flex-direction: column;
@@ -29,7 +47,16 @@ div.disabled
   align-items: center;
   width: 80%;
 }
-
+.carousel-control-prev,
+.carousel-control-next{
+      bottom: 38%;
+}
+.carousel-control-next{
+  right: -12%;
+}
+.carousel-control-prev{
+  left: -19%;
+}
 #carouselExampleIndicators {
   justify-content: center;
   align-items: center;
@@ -145,6 +172,12 @@ h2 {
   margin-left: 7.5%;
   color: #0071b9;
 }
+.Sshet2{
+  margin-top: 5%;
+  margin-left: 1%;
+  height: 1%;
+  width: 10%;
+}
 .playersbtn:hover {
   outline: none;
 }
@@ -169,20 +202,60 @@ h2 {
   height: 1%;
   width: 10%;
 }
-.StrelkaR {
-  position: absolute;
-  height: 30px;
-  width: 30px;
-  left: 90%;
-  top: 26%;
-}
-.StrelkaL {
-  position: absolute;
-  height: 30px;
-  width: 30px;
-  right: 90%;
-  top: 26%;
-}
+
 .shahzodLox {
   text-align: center;
 }
+
+
+
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+input[type='radio']{
+  display: none;
+}
+.RadioL{
+  position: relative;
+  color:005393;
+  border:2px solid #005393;
+  display: flex;
+  height: 30px;
+  width: 100px;
+  align-items: center;
+  justify-content: left;
+}
+.Mid{
+  text-align: center;
+}
+.RadioL::before{
+  content: '';
+  height:15px;
+  width: 15%;
+  border: 3px solid #005393;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.PforImg{
+  font-weight: 100;
+  font-size: 20px;
+  color:#005393;
+}
+input[type='radio']:checked+label{
+  background: linear-gradient(0.25turn, #005393, #0071b9);
+  color:white
+}
+input[type='radio']:checked+label:before{
+  border:10px solid white;
+  background: linear-gradient(0.25turn, #005393, #0071b9);
+}
+.question{
+  font-size: 20px;
+  color:#005393;
+}
+
+
