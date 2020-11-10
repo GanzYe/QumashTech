@@ -14,8 +14,10 @@ const TableList =({rcData})=>
         )
     })
         return(
+            <div className="container-sm">
             <div className="list-group">
                 {elements}
+            </div>
             </div>
         )
     
