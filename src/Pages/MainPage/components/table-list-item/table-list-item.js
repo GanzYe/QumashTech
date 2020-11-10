@@ -11,7 +11,7 @@ export default class TableListItem extends Component{
             <div className="d-flex align-items-center block">
              <img src={url} alt=""/>
             <div className='text'>
-                <h3>{title}</h3>
+                <h4>{title}</h4>
                 <p>{address}</p>  
             </div>
         </div>
