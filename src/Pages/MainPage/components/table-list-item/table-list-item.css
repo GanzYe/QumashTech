@@ -5,6 +5,7 @@
 }
 .text h4 {
   font-family: "Fjalla One", sans-serif;
+  color: rgb(0,83,147);
 }
 .text {
   width: 50%;
@@ -19,3 +20,4 @@
   border-radius: 10px;
   height: 120px;
 }
+
