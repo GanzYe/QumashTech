@@ -16,7 +16,8 @@ export default class CoworkingBlock extends Component {
         )
     }
 
-
+    temp = {type: 'qwdqwd',office_num: 0, area: '0x0', max_people_amount: 10, additional_opportunities: "free wifi"}
+    temp_1 = {type: '',office_num: 10, area: '10x10', max_people_amount: 10, additional_opportunities: "free wifi"}
     render() {
         let {officesData,onClickHandle} = this.props;
         const elements = officesData.map((item) => {
