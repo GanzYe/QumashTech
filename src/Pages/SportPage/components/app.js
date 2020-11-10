@@ -7,10 +7,10 @@ import img4 from './L.png'
 import imgBack from './ArrL.png'
 export default class App extends Component {
     render(){
-        
+    
     return (
+      
       <div className='Sportera d-flex flex-column justify-content-center'>
-        
           <img src={imgBack} class="BackImg" alt="..."/>
           <img src={img3} class="StrelkaR" alt="..."/>
           <img src={img4} class="StrelkaL" alt="..."/>
@@ -22,32 +22,27 @@ export default class App extends Component {
           </label>
         </div>
       <div className='SportPage '>
-            <div id="carouselExampleControls era" class="carousel slide" data-ride="carousel">
-              
-        <div class="carousel-inner">
-         
-          <div class="carousel-item active">
-            <img src={img} class="d-block w-100" alt="..."/>
-            <div className="shahzodLox">
-            <h2>Football</h2>
-
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src={img2} class="d-block w-100" alt="..."/>
-            <div className="shahzodLox">
-            <h2>Basketball</h2>
-
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"       data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button"       data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
-      </div>
+            
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src={img} class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src={img2} class="d-block w-100" alt="..."/>
+    </div>
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>    
+        
   </div>
 <div className='CheckBoxx'>
 <input  type="checkbox" id="agree"/>
