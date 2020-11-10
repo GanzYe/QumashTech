@@ -12,6 +12,7 @@
   padding: 0px 5px;
 }
 .block {
+  width: 100%;
   box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
   margin-bottom: 30px;
   background-color: #fafafa;

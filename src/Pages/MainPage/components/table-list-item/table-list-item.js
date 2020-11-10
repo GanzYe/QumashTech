@@ -9,7 +9,7 @@ export default class TableListItem extends Component{
         console.log(title,address,url);
         return(
             <div className="d-flex align-items-center block">
-             <img src={url} alt=""/>
+             <img className="rcImg" src={url} alt=""/>
             <div className='text'>
                 <h4>{title}</h4>
                 <p>{address}</p>  
