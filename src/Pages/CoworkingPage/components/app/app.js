@@ -12,20 +12,24 @@ export default class App extends Component {
     state={
         officesData:[
            this.createOffice('green','-82%','8%','Офис'),
-           this.createOffice('red','-82%','8%','Офис'),
+           this.createOffice('red','-81%','8%','Офис'),
            this.createOffice('red','-102%','17%','Офис'),
-           this.createOffice('green','-102%','17%','Офис'),
-           this.createOffice('green','-122%','25%','Офис'),
-           this.createOffice('green','-122%','25%','Офис'),
+           this.createOffice('green','-101%','17%','Офис'),
+           this.createOffice('grey','-122%','26%','Офис'),
+           this.createOffice('green','-121%','26%','Офис'),
            this.createOffice('green','-142%','36%','Офис'),
-           this.createOffice('red','-142%','36%','Офис'),
+           this.createOffice('red','-141%','36%','Офис'),
+           this.createOffice('green','-122%','5%','Переговорная','27%','14%'),
+           this.createOffice('green','-190%','72.3%','Зал','30%','22.5%'),
         ]
     }
-   createOffice(color,top,left,typeName){
+   createOffice(color,top,left,typeName,height ='10%',width='5%'){
     return{
         color,
         top,
         left,
+        height,
+        width,
         show:false,
         id: this.maxid++,
         type:this.generateTypeOffice(typeName),
