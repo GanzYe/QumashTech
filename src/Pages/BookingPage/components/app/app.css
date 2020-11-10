@@ -5,9 +5,10 @@
 	flex-wrap: nowrap;
 	justify-content: top;
 	align-items: center;
-	align-content: center;
+  align-content: center;
 }
 h1{
+  color: #0071B9;
   margin-top: 30%;
   font-weight: 5000;
   font-size: 20px;
@@ -15,22 +16,28 @@ h1{
 .mini{
   width: 60px;
 }
+.InputC{
+  box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
+  width: 80%;
+  border-radius: 10px;
+}
 input{
   border-color:none;
   border-radius: 10px;
-  box-shadow:  5px 5px 15px #313131;
-  width: 80%;
+  box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
+  width: 50%;
  margin-top: 3%;
  margin-bottom: 3%;
   color:rgb(160, 83, 83);
-  background: linear-gradient(0.25turn, #005393, #0071B9);
+  background: #fbf7f7;;
   
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
   text-align: center;
 }
-.miniP{width: 25%;
+.miniP{width: 25%;box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
+  border-radius: 10px;
 }
 .mini{
   width: 30%;
@@ -77,6 +84,7 @@ p{
 	align-content: space-around;
 }
 .MiniSecond{
+  
   width: 40%;
   background-color: #DDDDDD;
   border-radius: 10px;

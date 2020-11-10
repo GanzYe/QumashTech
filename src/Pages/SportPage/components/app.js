@@ -4,11 +4,16 @@ import img from './footbal.png'
 import img2 from './basketbal.png'
 import img3 from './R.png'
 import img4 from './L.png'
+import imgBack from './ArrL.png'
 export default class App extends Component {
     render(){
         
     return (
       <div className='Sportera d-flex flex-column justify-content-center'>
+        
+          <img src={imgBack} class="BackImg" alt="..."/>
+          <img src={img3} class="StrelkaR" alt="..."/>
+          <img src={img4} class="StrelkaL" alt="..."/>
         <div>
         </div>
         <div className='SportText'>
