@@ -7,7 +7,7 @@ import ButtonBack from '../button-back'
 
 import './app.css'
 
-export default class App extends Component {
+export default class CoworkingPage extends Component {
     render() {
         return (
         <div className="coworking_page">

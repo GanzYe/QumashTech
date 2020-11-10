@@ -1,2 +1,2 @@
-import CoworkingApp from './app'
-export default CoworkingApp;
+import CoworkingPage from './app'
+export default CoworkingPage;
