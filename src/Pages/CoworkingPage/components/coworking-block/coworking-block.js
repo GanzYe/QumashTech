@@ -32,7 +32,7 @@ export default class CoworkingBlock extends Component {
             <div className="coworking-container">
                 <img className="coworking-map-image" src={CoworkingMapImage}  alt="coworking_map"/>
                 {elements}
-                {infoOffices}
+                {infoOffices}                
             </div>
         )
     }

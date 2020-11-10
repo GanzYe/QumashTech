@@ -1,82 +1,34 @@
 .coworking-container {
-    width: 100%;
-    position: fixed;
-    height: 30%;
-    z-index: 0;
+  width: 100%;
+  position: fixed;
+  height: 30%;
+  z-index: 0;
 }
-
 
 .coworking-map-image {
-    width: 100%;
-    height: 100%;
-    z-index: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 }
-
-.office {
-    opacity: 0.5;
-    position: relative;
-    z-index: 100;
-    height: 10%;
-    width: 5%;
+.btn_Booking:hover {
+  box-shadow: inset 4px 4px 8px rgb(2, 2, 2),
+    inset 2px 2px 12px rgba(255, 255, 255, 0.5),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.1),
+    inset -2px -2px 8px rgba(0, 0, 0, 0.15);
+  outline: none;
 }
+.btn_Booking {
+  outline: none;
+  border-width: 0px;
+  background: linear-gradient(0.25turn, #005393, #0071b9);
+  border-radius: 10px;
+  height: 80px;
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
 
-.office_1 {
-    background-color: green;
-    top: -82%;
-    left: 8%;
-}
-
-.office_2 {
-    background-color: red;
-    top: -82%;
-    left: 8%;
-}
-
-.office_3 {
-    background-color: red;
-    top: -102%;
-    left: 18%;
-}
-
-.office_4 {
-    background-color: green;
-    top: -102%;
-    left: 18%;
-}
-
-.office_5 {
-    background-color: green;
-    top: -122%;
-    left: 26%;
-}
-
-.office_6 {
-    background-color: green;
-    top: -122%;
-    left: 26%;
-}
-
-.office_7 {
-    background-color: green;
-    top: -142%;
-    left: 36%;
-}
-
-.office_8 {
-    background-color: red;
-    top: -142%;
-    left: 36%;
-}
-
-.info_block {
-    background-color: lightgrey;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    margin: 10%;
-    margin-top: -50%;
-    height: 80%;
-    box-shadow:  5px 5px 10px #a3a3a3, 
-    -5px -5px 10px #ffffff;
-    border-radius: 10px;
+  color: white;
+  box-shadow: 4px 4px 8px rgb(0, 0, 0), 2px 2px 12px rgba(41, 41, 41, 0.5),
+    inset -2px -2px 4px rgba(1, 253, 232, 0.1),
+    -2px -2px 8px rgba(0, 0, 0, 0.15);
 }
