@@ -8,10 +8,11 @@ export default class InfoOfficeItem extends Component{
             return(
                 <div className="info_block">
                     <h5>Информация</h5>
-                    <p>Тип офиса: {type.typeName}</p>
+                    <p>Тип помещение: {type.typeName}</p>
                     <p>Номер офиса: {type.office_num} </p>
-                    <p>Площадь: {type.area}</p>
-                    <p>Макс. вместительность: {type.max_people_amount}</p>                 
+                    <p>Площадь: {type.area} m<sup>2</sup></p>
+                    <p>Макс. вместительность: {type.max_people_amount} человек
+                    </p>                 
             </div>                
             )
         }
