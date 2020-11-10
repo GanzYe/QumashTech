@@ -26,7 +26,7 @@ export default class App extends Component {
       <div id="carouselExampleInterval" class="carousel slide" data-interval="false" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={img} class="d-block w-100" alt="..."/>
+      <img src={img} class="d-block w-100"  alt="..."/>
     </div>
     <div class="carousel-item" >
       <img src={img2} class="d-block w-100" alt="..."/>
