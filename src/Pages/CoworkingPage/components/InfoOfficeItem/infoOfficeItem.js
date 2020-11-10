@@ -3,7 +3,7 @@ import './infoOfficeItem.css'
 export default class InfoOfficeItem extends Component{    
     render(){
         const {type,show} = this.props;
-        console.log(type);
+       // console.log(type);
         if(show===true){
             return(
                 <div className="info_block">
