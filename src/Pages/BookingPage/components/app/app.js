@@ -1,20 +1,24 @@
 import React,{Component} from 'react';
 import './app.css';
 export default class BookingApp extends Component {
-    render(){
-      
+    Back(){
+        history.back();
+    }
+    render(){      
     return (
-        <div className="bookingPage container" >
-            <h1>Бронирование</h1>
-                <input disabled={false} className='form-control InputC'    placeholder="Имя *"/>
+        <div className="bookingPage" >
+           
+           <img src={img} onClick={Back} className='Back' alt='Back'/>
+            <h1 className='Headdd'>Бронирование</h1>
+                <input disabled={false} className=' InputC form-control'    placeholder="Имя *"/>
             
-                <input className='form-control InputC' disabled={false}placeholder="Фамилия *"/>
+                <input className=' InputC form-control' disabled={false} placeholder="Фамилия *"/>
             
             
-                <input className='form-control InputC' disabled={false}placeholder="Электронная почта *"/>
+                <input className=' InputC form-control' disabled={false}placeholder="Электронная почта *"/>
             
             
-                <input disabled={false} className='form-control InputC'placeholder="Номер телефона *"/>
+                <input disabled={false} className=' InputC form-control'placeholder="Номер телефона *"/>
             
             <div className='Twoin1'>
           <input   placeholder="Дата *"className='form-control miniP'/>
@@ -25,13 +29,15 @@ export default class BookingApp extends Component {
 
          </label>
            <div className='Pred'>
-               <p>ПредОплата *</p>
+               <p className='PredP'>Предoплата *</p>
                <div className='Pay'>
-                  <button className='form-control MiniSecond'>Налом</button>
-                  <button className='form-control MiniSecond'>Онлайн</button>
-               </div>
+                <p className='Paym'>Наличные</p>
+               <input type="checkbox" id="agree"/>
+                <label class="check" for="agree"></label>
+                <p className='Paym'>Онлайн</p>
+                </div>
            </div>
-           <button className='btnBooking'  >Забронировать</button>
+          <a href=''> <button className='btnBooking'  >Забронировать</button></a>
         </div>
     );
     }

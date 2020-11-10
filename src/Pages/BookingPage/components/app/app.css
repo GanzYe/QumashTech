@@ -1,105 +1,180 @@
-
-.bookingPage{
+.Back {
+  height: 5%;
+  width: 10%;
+  position: absolute;
+  left: 5%;
+  top: 3%;
+}
+.BackI {
+  height: 5%;
+  width: 10%;
+}
+.bookingPage {
   display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: top;
-	align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: top;
+  align-items: center;
   align-content: center;
 }
-h1{
-  color: #0071B9;
+.Headdd {
+  color: #0071b9;
   margin-top: 30%;
   font-weight: 5000;
   font-size: 20px;
 }
-.mini{
+.mini {
   width: 60px;
 }
-.InputC{
+.InputC {
   box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
   width: 80%;
   border-radius: 10px;
 }
-input{
-  border-color:none;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
+input {
+  padding-left: 20px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: inset 5px 5px 10px #bdbdbd, inset -5px -5px 10px #ffffff;
   width: 50%;
- margin-top: 3%;
- margin-bottom: 3%;
-  color:rgb(160, 83, 83);
-  background: #fbf7f7;;
-  
-}
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: white;
-  text-align: center;
-}
-.miniP{width: 25%;box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
-  border-radius: 10px;
-}
-.mini{
-  width: 30%;
-}
-.Twoin1{
-  width: 80%;
-  display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: space;
-	align-content: space-between;
-}
-.ll{
+  height: 45px;
   margin-top: 3%;
   margin-bottom: 3%;
-height: 1px;
-width: 100%;
-background-color: rgb(121, 121, 121);
+  color: rgb(160, 83, 83);
+  background: #fbf7f7;
 }
-.Pred{margin-top: 3%;
-margin-bottom: 6%;
-  width: 80%;
-  height: 15%;
-  background: linear-gradient(0.25turn, #0071B9, #005393);
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  text-align: center;
+}
+.custom-radio {
+  margin-left: 10%;
+}
+.miniP {
+  width: 25%;
+  box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
   border-radius: 10px;
 }
-.PredP{
-  margin-top: 5%;
-
+.mini {
+  width: 30%;
 }
-p{
+.Twoin1 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: space;
+  align-content: space-between;
+}
+.ll {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: 1px;
+  width: 100%;
+  background-color: rgb(121, 121, 121);
+}
+.Pred {
+  margin-top: 3%;
+  margin-bottom: 6%;
+  width: 80%;
+  height: 15%;
+  background: #ffffff;
+  border: #0071b9 solid 5px;
+  border-radius: 10px;
+}
+.PredP {
+  color: black;
+}
+p {
   margin-top: 2%;
   text-align: center;
   color: white;
 }
-.Pay{
+.Pay {
   width: 100%;
   display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: space;
-	align-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: space;
+  align-content: space-around;
 }
-.MiniSecond{
-  
-  width: 40%;
-  background-color: #DDDDDD;
+.MiniSecond {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background: #0071b9;
+  border-width: 0;
   border-radius: 10px;
-  box-shadow:  10px 10px 30px #313131;
   margin-bottom: 5%;
 }
-.MiniSecond::placeholder{
-  color:black;
+
+.check {
+  display: block;
+  height: 10px;
+  top: 20px;
+  background-color: lightgray;
+  width: 70px;
+  border-radius: 20px;
+  position: relative;
+  transition: 0.5s;
 }
-.btnBooking{
-  background: linear-gradient(0.25turn, #005393, #0071B9);
+.check::before {
+  content: "";
+  display: flex;
+  width: 30px;
+  height: 30px;
+  top: -10px;
+  left: 0px;
+  border-radius: 100%;
+  background-color: #0071b9;
+  transition: 0.5s;
+  position: absolute;
+}
+
+#agree:checked + .check::before {
+  left: 40px;
+}
+#agree {
+  display: none;
+}
+.btnBooking {
+  border-width: 0px;
+  background: #0071b9;
   border-radius: 10px;
-  box-shadow:  10px 10px 30px #313131;
   height: 50px;
   width: 50%;
   text-align: center;
-  color:white;
+  color: white;
+}
+a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  background: #0071b9;
+  font-size: 18px;
+  border-radius: 40px;
+  box-shadow: 4px 4px 8px rgb(0, 0, 0), 2px 2px 12px rgba(41, 41, 41, 0.5),
+    inset -2px -2px 4px rgba(1, 253, 232, 0.1),
+    -2px -2px 8px rgba(0, 0, 0, 0.15);
+}
+a:hover {
+  box-shadow: inset 4px 4px 8px rgb(2, 2, 2),
+    inset 2px 2px 12px rgba(255, 255, 255, 0.5),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.1),
+    inset -2px -2px 8px rgba(0, 0, 0, 0.15);
+}
+a:hover span {
+  display: inline-block;
+  transform: scale(0.98);
+}
+.Paym {
+  color: black;
 }
