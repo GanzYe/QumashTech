@@ -4,7 +4,7 @@ export default class BookingApp extends Component {
     render(){
       
     return (
-        <div className="bookingPage" >
+        <div className="bookingPage container" >
             <h1>Бронирование</h1>
                 <input disabled={false} className='form-control InputC'    placeholder="Имя *"/>
             

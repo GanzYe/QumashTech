@@ -45,7 +45,7 @@
 .coworking_block {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 70%;
     height: 100px;
     position: absolute;
     color: white;
