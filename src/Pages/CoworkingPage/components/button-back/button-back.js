@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import buttonBackImg from '../block/images/button-back.png'
+import buttonBackImg from '../../../BlockPage/components/block/images/button-back.png'
 import './button-back.css'
 
 export default class ButtonBack extends Component {

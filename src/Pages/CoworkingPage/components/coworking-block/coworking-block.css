@@ -1,0 +1,95 @@
+.coworking-container {
+    width: 100%;
+    position: fixed;
+    height: 30%;
+    z-index: 0;
+}
+
+
+.coworking-map-image {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.office_1 {
+    background-color: green;
+    opacity: 0.5;
+    top: -82%;
+    left: 8%;
+    position: relative;
+    z-index: 100;
+    height: 10%;
+    width: 5%;
+}
+
+.office_2 {
+    background-color: red;
+    opacity: 0.5;
+    top: -82%;
+    left: 8%;
+    z-index: 100;
+    position: relative;
+    height: 10%;
+    width: 5%;
+}
+
+.office_3 {
+    background-color: red;
+    opacity: 0.5;
+    top: -102%;
+    left: 17%;
+    position: relative;
+    height: 10%;
+    width: 5%;
+}
+
+.office_4 {
+    background-color: green;
+    opacity: 0.5;
+    top: -102%;
+    left: 17%;
+    position: relative;
+    height: 10%;
+    width: 5%;
+}
+
+.office_5 {
+    background-color: green;
+    opacity: 0.5;
+    top: -122%;
+    left: 25%;
+    position: relative;
+    height: 10%;
+    width: 5%;
+}
+
+.office_6 {
+    background-color: green;
+    opacity: 0.5;
+    top: -122%;
+    left: 25%;
+    position: relative;
+    height: 10%;
+    width: 5%;
+}
+
+.office_7 {
+    background-color: green;
+    opacity: 0.5;
+    top: -142%;
+    left: 36%;
+    position: relative;
+    height: 10%;
+    width: 5%;
+}
+
+.office_8 {
+    background-color: red;
+    opacity: 0.5;
+    top: -142%;
+    left: 36%;
+    position: relative;
+    height: 10%;
+    width: 5%;
+}
