@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import './app.css';
-export default class App extends Component {
+export default class BookingApp extends Component {
     render(){
       
     return (

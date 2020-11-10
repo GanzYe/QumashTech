@@ -1,3 +1,3 @@
-import App from './app';
+import BookingApp from './app';
 
-export default App;
+export default BookingApp;
