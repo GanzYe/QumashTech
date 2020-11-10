@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import img from './btn.png';
 import './app.css';
 export default class BookingApp extends Component {
     Back(){
@@ -8,7 +9,7 @@ export default class BookingApp extends Component {
     return (
         <div className="bookingPage" >
            
-           <img src={img} onClick={Back} className='Back' alt='Back'/>
+           <img src={img} onClick={this.Back} className='Back' alt='Back'/>
             <h1 className='Headdd'>Бронирование</h1>
                 <input disabled={false} className=' InputC form-control'    placeholder="Имя *"/>
             
@@ -32,12 +33,12 @@ export default class BookingApp extends Component {
                <p className='PredP'>Предoплата *</p>
                <div className='Pay'>
                 <p className='Paym'>Наличные</p>
-               <input type="checkbox" id="agree"/>
-                <label class="check" for="agree"></label>
+                <input type="checkbox" id="agree"/>
+                <label class="check" for="agree"></label> 
                 <p className='Paym'>Онлайн</p>
                 </div>
            </div>
-          <a href=''> <button className='btnBooking'  >Забронировать</button></a>
+           <button className='btnBooking'  >Забронировать</button>
         </div>
     );
     }

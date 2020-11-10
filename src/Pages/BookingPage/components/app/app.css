@@ -150,7 +150,7 @@ p {
   text-align: center;
   color: white;
 }
-a {
+.btnBooking {
   position: relative;
   display: inline-block;
   padding: 10px 30px;
@@ -159,19 +159,20 @@ a {
   font-weight: 500;
   letter-spacing: 2px;
   background: #0071b9;
-  font-size: 18px;
+  font-size: 13px;
   border-radius: 40px;
   box-shadow: 4px 4px 8px rgb(0, 0, 0), 2px 2px 12px rgba(41, 41, 41, 0.5),
     inset -2px -2px 4px rgba(1, 253, 232, 0.1),
     -2px -2px 8px rgba(0, 0, 0, 0.15);
 }
-a:hover {
+.btnBooking:hover {
+  outline: none;
   box-shadow: inset 4px 4px 8px rgb(2, 2, 2),
     inset 2px 2px 12px rgba(255, 255, 255, 0.5),
     inset -2px -2px 4px rgba(255, 255, 255, 0.1),
     inset -2px -2px 8px rgba(0, 0, 0, 0.15);
 }
-a:hover span {
+.btnBooking:hover span {
   display: inline-block;
   transform: scale(0.98);
 }
