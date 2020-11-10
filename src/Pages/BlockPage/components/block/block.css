@@ -41,7 +41,13 @@
     border-radius: 5px;
     box-shadow: 0 -3px rgb(53,167,110) inset
 }
-
+.forNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
 .coworking_block {
     display: flex;
     align-items: center;

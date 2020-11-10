@@ -9,7 +9,7 @@ export default class BookingApp extends Component {
     return (
         <div className="bookingPage" >
            
-           <img src={img} onClick={this.Back} className='Back' alt='Back'/>
+           <img src={img} onClick={this.Back} className='button-back' alt='Back'/>
             <h1 className='Headdd'>Бронирование</h1>
                 <input disabled={false} className=' InputC form-control'    placeholder="Имя *"/>
             

@@ -4,6 +4,7 @@ import RcPage from './Pages/RCPage/components/app';
 import BlockApp from './Pages/BlockPage/components/app';
 import CoworkingPage from './Pages/CoworkingPage/components/app';
 import BookingApp from './Pages/BookingPage/components/app';
+import SportPage from './Pages/SportPage/components/app';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 //David 2
@@ -14,7 +15,8 @@ function AppMain(){
                <Route path='/' exact component={App}/>
                <Route path='/rc' component={RcPage}/>
                <Route path='/block' component={BlockApp} />
-               <Route path='/coworking' exact component={CoworkingPage}/>
+               <Route path='/coworking' component={CoworkingPage}/>
+               <Route path='/sportpage' component={SportPage}/>
                <Route path='/booking' component={BookingApp}/>
             </Switch>
         </Router>

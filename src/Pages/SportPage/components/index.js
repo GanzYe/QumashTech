@@ -1,2 +1,2 @@
-import App from './app'; 
-export default App;
+import SportPage from './app'; 
+export default SportPage;

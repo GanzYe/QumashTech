@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 /* import ReactDOM from 'react-dom'; */
-
+import {Link} from 'react-router-dom';
 import './block.css'
 
 export default class Block extends Component {
@@ -18,11 +18,15 @@ export default class Block extends Component {
                         }}>
                         <div className="coworking_block" onClick={()=>console.log('test')}><i className="fas fa-chair"></i></div>
                         </div>
-                        <div className="sport_block" onClick={()=>console.log('test')}><i className="fas fa-futbol"></i></div>
+                        <div className="sport_block" onClick={()=>console.log('test')}>
+                            <Link to='/sportpage' className="forNav">                        
+                                    <i className="fas fa-futbol" style={{color:'white'}}></i>
+                            </Link>
+                        </div>
                     </div>
-                </div>
+            </div>
      
-     )
+        )
 
     }
 

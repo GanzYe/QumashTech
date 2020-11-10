@@ -9,7 +9,7 @@ export default class BackBtn extends Component {
     render() {
         return (
             <div className="button-back-container" onClick={this.backHistory}>
-                    <img src={buttonBackImg}></img>
+                    <img src={buttonBackImg} className="button-back"></img>
             </div>
         );
 
