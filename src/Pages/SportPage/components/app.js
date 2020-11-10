@@ -5,6 +5,9 @@ import img2 from './imgs/basketbal.png'
 import img3 from './imgs/R.png'
 import img4 from './imgs/L.png'
 import imgBack from './imgs/ArrL.png'
+
+import ButtonBack from './button-back'
+import AppHeader from './app-header'
 export default class App extends Component {
 
   Check(id) {
@@ -30,25 +33,19 @@ render(){
     return (
       
       <div className='Sportera d-flex flex-column justify-content-center'>
-          <img src={imgBack} class="BackImg" alt="..."/>
-        <div>
-        </div>
-        <div className='SportText'>
-          <label className='SportL'>
-            <p className='SportP'>Спорт площадка</p>
-          </label>
-        </div>
+                  <ButtonBack/>
+            <AppHeader/>    
       <div className='SportPage '>
      
       <div id="carouselExampleInterval" class="carousel slide" data-interval="false" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active Mid">
       <img src={img} class="d-block w-100" alt="..."/>
-      <p className='PforImg'>Footbal</p>
+      <p className='PforImg'>Football</p>
     </div>
     <div class="carousel-item Mid" >
       <img src={img2} class="d-block w-100" alt="..."/>
-      <p className='PforImg'>Basketbal</p>
+      <p className='PforImg'>Basketball</p>
     </div>
   </div>
   <div className='Arrows'>
@@ -80,7 +77,7 @@ render(){
      <p className='players'>Количество нужных игроков</p>
      <input  className='Sshet2' type={Number}/>
    </div>
-   <button className='playersbtn'>Таблица команд</button>
+   <button className='playersbtn'>Список команд</button>
   </div>
    <button className='btnBooking'>Забронировать</button>
     </div>

@@ -1,2 +1,2 @@
-import App from './app'; 
-export default App;
+import Popup from './popup'; 
+export default Popup;
