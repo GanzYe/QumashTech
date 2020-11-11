@@ -48,6 +48,14 @@
     width: 100%;
     height: 100%;
 }
+.forNavCow{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+}
 .coworking_block {
     display: flex;
     align-items: center;
@@ -55,7 +63,7 @@
     height: 100px;
     position: absolute;
     color: white;
-    padding-left: 90px;
+    
     font-size: 24px;
     background: rgb(64,199,129);
     box-shadow: 0 -3px rgb(53,167,110) inset;

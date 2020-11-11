@@ -6,8 +6,8 @@ import './app-header.css'
 export default class AppHeader extends Component {
     render() {
         return (
-            <div className="block-page-header">
-                <div className="block_page_header_container" style={{textAlign: 'center'}} >
+            <div className="rc-header">
+                <div className="rc-header-block">
                     <p className="block_page_text" style={{fontSize: '14px', paddingLeft: '5px'}}>Бронирование спорт. площадок</p>
                 </div>
             </div>

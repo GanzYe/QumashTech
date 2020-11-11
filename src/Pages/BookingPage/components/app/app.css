@@ -38,7 +38,7 @@ input {
   box-shadow: inset 5px 5px 10px #bdbdbd, inset -5px -5px 10px #ffffff;
   width: 50%;
   height: 45px;
-  margin-top: 3%;
+  margin-top: 6%;
   margin-bottom: 3%;
   color: rgb(160, 83, 83);
   background: #fbf7f7;
@@ -178,4 +178,7 @@ p {
 }
 .Paym {
   color: black;
+}
+.nameBlock{
+  margin-top: 60px;
 }

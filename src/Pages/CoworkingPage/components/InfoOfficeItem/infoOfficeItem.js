@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import './infoOfficeItem.css'
+import {Link} from 'react-router-dom';
 export default class InfoOfficeItem extends Component{    
     render(){
         const {type,show} = this.props;
@@ -16,7 +17,13 @@ export default class InfoOfficeItem extends Component{
                     </p>                 
                 </div> 
                 <div className="d-flex justify-content-center align-items-center">
-                      <button className='btn_Booking'>Забронировать</button>
+                <button className='btn_Booking'>
+                    <Link to='/booking' className='linkName'>
+                      <div className='btnBookingChild'>
+                            Забронировать
+                       </div>
+                    </Link>
+                </button>
                 </div>
                 </div>
                            

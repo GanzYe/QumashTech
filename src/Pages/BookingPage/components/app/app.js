@@ -10,14 +10,20 @@ export default class BookingApp extends Component {
     return (
         <div className="bookingPage" >
            
-           <img src={img} onClick={this.Back} className='button-back' alt='Back'/>
-            <h1 className='Headdd'>Бронирование</h1>
-                <input disabled={false} className=' InputC form-control'    placeholder="Имя *"/>
+            <div className="button-back-container">
+                <img className="button-back" src={img} onClick={this.Back}></img>
+            </div>
+            <div className="rc-header">
+                <div className="rc-header-block">
+                    <p className="rc-header-block-text">Бронирование</p>
+                </div>
+            </div>
+                <input disabled={false} className=' InputC form-control nameBlock'    placeholder="Имя *"/>
             
                 <input className=' InputC form-control' disabled={false} placeholder="Фамилия *"/>
             
             
-                <input className=' InputC form-control' disabled={false}placeholder="Электронная почта *"/>
+                <input className=' InputC form-control' disabled={false} placeholder="Электронная почта *"/>
             
             
                 <input disabled={false} className=' InputC form-control'placeholder="Номер телефона *"/>

@@ -16,7 +16,11 @@ export default class Block extends Component {
                         <div className="res_block" style={{
                                 "clipPath": polygonParams[blockName]
                         }}>
-                        <div className="coworking_block" onClick={()=>console.log('test')}><i className="fas fa-chair"></i></div>
+                            <div className="coworking_block" onClick={()=>console.log('test')}>
+                            <Link to='/coworking' className="forNavCow"> 
+                                    <i className="fas fa-chair"></i>
+                            </Link>
+                        </div>
                         </div>
                         <div className="sport_block" onClick={()=>console.log('test')}>
                             <Link to='/sportpage' className="forNav">                        
